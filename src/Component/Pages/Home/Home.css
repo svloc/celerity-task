@@ -1,0 +1,63 @@
+.heading-h2 {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.heading-p {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.shipment-location-info {
+    height: 82px;
+    background: #FFFFFF;
+    box-shadow: 296px 536px 245px rgba(21, 31, 72, 0.01), 167px 302px 207px rgba(21, 31, 72, 0.05), 74px 134px 153px rgba(21, 31, 72, 0.09), 19px 34px 84px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+}
+
+.shipment-location-text {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+
+    color: #868686;
+}
+
+.custom-card {
+    padding: 28px 24px;
+    gap: 20px;
+    width: 331px;
+    height: 212px;
+    background: #FFFFFF;
+    box-shadow: 0px 146px 58px rgba(0, 0, 0, 0.01), 0px 82px 49px rgba(0, 0, 0, 0.05), 0px 36px 36px rgba(0, 0, 0, 0.09), 0px 9px 20px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.card-heading {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+}
+
+.service-heading {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
