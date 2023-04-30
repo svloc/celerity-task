@@ -1,0 +1,76 @@
+.number {
+  height: 125px;
+}
+
+.step-icon {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.bg-blue-icon {
+  background-color: #D3B0FF;
+  color: #fff;
+}
+
+
+.line {
+  flex: 1 0 auto;
+  height: 2px;
+  background-color: #D3B0FF;
+  margin: 0px 4px
+}
+
+.line-no-color {
+  background-color: transparent;
+}
+
+.width-573 {
+  width: 573px;
+}
+
+.box-shadow-shipment-card {
+  box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+  border-radius: 14px;
+  background: #FFFFFF;
+}
+
+.booking-summary-card {
+  width: 907px;
+  height: 256.5px;
+}
+
+.weight-vol-card {
+  width: 232px;
+  height: 165px;
+}
+
+.load-card {
+  width: 664px;
+  height: 165px;
+}
+
+.seller-buyer-card {
+  width: 443px;
+  height: 187px;
+}
+
+.price-detail-card {
+  width: 366px;
+  height: 576px;
+
+}
+
+.booking-summary-card-heading {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.border-1_5-solid{
+  border:1.5px solid #000;
+}

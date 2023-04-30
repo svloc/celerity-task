@@ -12,26 +12,11 @@ const toSTRING = (json) => {
 		return null;
 	}
 };
-
-export const getAccessToken = () => toJSON(localStorage.getItem('accessToken'));
-
-export const setAccessToken = (token) => localStorage.setItem('accessToken', toSTRING(token));
-
-
 export const clearSession = () => {
-	localStorage.removeItem('accessToken');
+	localStorage.removeItem('isLoggedIn');
 	sessionStorage.clear();
 };
-
-export const getAccount = () => toJSON(localStorage.getItem('account'));
-
-export const setAccount = (account) => toJSON(localStorage.setItem('account', toSTRING(account)));
-
 export const setisLoggedIn=(val)=> localStorage.setItem('isLoggedIn',toSTRING(val));
-
 export const getisLoggedIn = () => toJSON(localStorage.getItem('isLoggedIn'));
 
-export const setSidebarItem=(val)=> localStorage.setItem('SidebarItem',toSTRING(val));
-
-export const getSidebarItem = () => toJSON(localStorage.getItem('SidebarItem'));
 
