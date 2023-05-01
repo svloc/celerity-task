@@ -19,10 +19,10 @@ function Header() {
     
     return (
         <div className='flex justify-between items-center py-4'>
-            <p className='header-text'>Ship<span className='blue-text'>mate</span></p>
+            <p className='header-text' >Ship<span className='blue-text'>mate</span></p>
             <div className='flex justify-between items-center gap-x-5'>
                 {!loginStatus ? <>
-                    <Button><Link to={PATH_NAME.LOGIN}>Login</Link></Button>
+                    <Link to={PATH_NAME.LOGIN}><Button>Login</Button></Link>
                     <Button variant='outlined'>Learn More</Button>
                 </> :
                     <>

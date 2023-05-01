@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { setisLoggedIn } from '../../../Routes/Storage';
+import { getisLoggedIn, setisLoggedIn } from '../../../Routes/Storage';
 import { PATH_NAME } from '../../../Routes/PathName';
 
 const Login = () => {
@@ -8,7 +8,6 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errors, setErrors] = useState({});
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -34,7 +33,9 @@ const Login = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
+    <div className='h-screen flex justify-center items-center'>
+    <form onSubmit={handleSubmit} className="max-w-sm mx-auto w-full p-5 rounded shadow-md bg-white">
+      <h1 className='text-center text-2xl font-bold'>Login</h1>
       <div className="mb-4">
         <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
           Email
@@ -73,6 +74,7 @@ const Login = () => {
         </button>
       </div>
     </form>
+    </div>
   );
 };
 
