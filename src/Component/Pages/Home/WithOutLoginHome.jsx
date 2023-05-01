@@ -22,23 +22,26 @@ function WithOutLoginHome() {
 
         <div className='flex justify-end h-36 items-center'>
           <div className='flex justify-around items-center w-10/12 m-auto shipment-location-info'>
-            <div className='flex gap-x-3.5 w-1/5'>
+            <div className='flex gap-x-2 items-center w-1/5'>
               <img src={LocationImg} alt='origin' />
               <p className='shipment-location-text'>Origin, Port, City</p>
             </div>
-            <div className='flex gap-x-3.5 w-1/5'>
+            <div className='flex gap-x-2 items-center w-1/5'>
               <img src={LocationImg} alt='origin' />
               <p className='shipment-location-text'>Destination, Port, City</p>
             </div>
-            <div className='flex gap-x-3.5 w-1/5'>
-              <img src={CalenderImg} alt='origin' />
+            <div className='flex gap-x-2 items-center w-1/5'>
+              <img src={CalenderImg} alt='origin' className='pl-2.5 border-left-light' />
               <p className='shipment-location-text'>13 April 2023</p>
             </div>
-            <div className='flex gap-x-3.5 w-1/5'>
-              <img src={ShipImg} alt='origin' />
+            <div className='flex gap-x-2 items-center w-1/5'>
+              <img src={ShipImg} alt='origin' className='pl-2.5 border-left-light' />
               <p className='shipment-location-text'>Load</p>
             </div>
-            <div className='flex gap-x-3.5'>&#8594;</div>
+            <div className='flex gap-x-2 items-center'>
+              <p className='pl-2 border-left-light h-7'> </p>
+              <p className='custome-arrow text-center'>&#8594;</p>
+            </div>
           </div>
         </div>
 
@@ -48,7 +51,7 @@ function WithOutLoginHome() {
         <div className='flex justify-around items-center gap-6'>
           <div className='custom-card flex flex-col'>
             <div className='flex '>
-              <img src={ShipImg} alt='Freight' />
+              <img src={ShipImg} alt='Freight' className='blue-color'/>
               <h2 className='card-heading'>Freight Service</h2>
             </div>
             <hr />
@@ -80,10 +83,11 @@ function WithOutLoginHome() {
             </div>
             <hr />
             <p>Receive suppot from our expert all over the world at every stage of the process, 24/7.</p>
+            <p></p>
           </div>
         </div>
       </div>
-      <div className='relative '>
+      <div className='relative top-2'>
         <img src={wave_1Img} width={100} className='absolute w-full' alt="wave_1Img" />
         <img src={wave_2Img} width={100} className='absolute w-full' alt="wave_2Img" />
       </div>
